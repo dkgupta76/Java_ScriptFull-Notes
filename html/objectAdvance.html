@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object Rference or shortcut</title>
+</head>
+<body>
+    <script>
+        // let product ={
+        //     company:'Mango',
+        //     price:861,
+        //     itemName:'T-shirts',
+        // };
+        // let{company}=product;
+        // console.log(company);
+        // console.log(product.company);
+        // let{company1,price}=product;
+        // console.log(company);
+        // console.log(price);
+        // console.log(product);
+
+
+
+             let product ={
+             company:'Mango',
+             price:861,
+             itemName:' Cotton stripped T-shirts',
+             displayPrice: function(){
+                return `$${this.price.toFixed(2)}`;
+             }
+        };
+        let product1={
+            ompany:'Mango',
+             price:861,
+             itemName:' Cotton stripped T-shirts',
+             displayPrice: function(){
+                return `$${this.price.toFixed(2)}`;
+             }
+        };
+        console.log(product);
+        console.log(product1);
+
+
+
+    </script>
+</body>
+</html>

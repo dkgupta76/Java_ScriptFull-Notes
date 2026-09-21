@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ODD or EVEN</title>
+</head>
+<body>
+    <script>
+        function isOdd(number){
+            let rem = number%2;
+            let isOdd = rem == 1;
+            return isOdd;
+        }
+        // console.log(isOdd(4));
+        // console.log(isOdd(5));
+        // console.log(isOdd(0));
+        // console.log(isOdd(99999));
+        function largeNumb (num1,num2)
+        {
+            // if(num1>num2){
+            //     return num1;
+            // }else{
+            //     return num2;
+            // }
+            return num1>num2? num1:num2;
+        }
+        // console.log(largeNumb(4,5));
+        // console.log(largeNumb(15,2));
+        // console.log(largeNumb(0,0));
+        // console.log(largeNumb(99999,5946));
+        function toFahrenheit(celsiusValue){
+            return 9/5*celsiusValue+32;
+        }
+        console.log(toFahrenheit(32));
+        console.log(toFahrenheit(35));
+        console.log(toFahrenheit(45));
+        console.log(toFahrenheit(38));
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+            text-align: center;
+   }
+
+   .choice-button{
+    height: 150px;
+    width: 150px;
+    border: hwb(350 35% 23%);
+    margin: 15px;
+    background-color: pink;
+    border-radius: 55px;
+
+   }
+   .choice-image{
+    height: 100px;
+   }
